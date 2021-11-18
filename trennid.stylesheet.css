@@ -1,0 +1,28 @@
+.MMA {
+    border: 5px outset #6c939f ;
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+.Taipoks {
+    border: 5px outset #6c939f ;
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+.poks {
+    border: 5px outset #6c939f ;
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+.link {
+    color: rgb(146, 171, 201);
+}
+
