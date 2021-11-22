@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <link rel='stylesheet' href="stylesheet.css">
+    <link rel="stylesheet" href="kontaktleht.stylesheet.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>KLUBI KOLMTEIST</title>
 </head>
@@ -15,12 +16,19 @@
                 <div class='head1'>KLUBI KOLMTEIST</div>
                 <div class='head2'>Parim võitluskunstide klubi Eestis</div>
             </div>
-            
+
             <div class="header-child green">
                 <div id="quoteDisplay">
-                    Action is the real measure of intelligence.
+                    <div id="quote" class="quote">
+                        Enamasti ei ole mitte asjad need, mis meid häirivad, vaid meid häirib meie suhtumine neisse
+                        asjusse.
+                    </div>
+                    <br>
+                    <div id="creator" class="creator">
+                        Marcus Aurelius
+                    </div>
                 </div>
-                <script src="popmessage.js"></script>
+                <script src="randomquotes.js"></script>
             </div>
         </div>
     </header>
@@ -38,7 +46,7 @@
             <div class="float-child-element">
                 <div class=container>
                     <form>
-                        <h3>Tekkis kusimusi? Kirjuta meile!</h3>
+                        <h3>Tekkis küsimusi? Kirjuta meile!</h3>
                         <div class="leftbox">
                             <label for="fname">Eesnimi</label>
                             <input type='text' id="fname" name="firstname" placeholder="Teie eesnimi">
@@ -52,7 +60,7 @@
 
                         <div class="clear">
                             <label for="email">Emaili aadress</label>
-                            <input type='text' id="email" name="email" placeholder="Teie email">
+                            <input type='email' id="email" name="email" placeholder="Teie email">
                         </div>
 
 
@@ -60,7 +68,7 @@
                         <input type="text" id="phone" name="phone" placeholder="Teie number">
 
 
-                        <label for="tekst">Sonum</label>
+                        <label for="tekst">Sõnum</label>
                         <textarea id="subject" name="subject" placeholder="Kirjuta oma sonum..."
                             style="height: 200px"></textarea>
 
@@ -101,9 +109,9 @@
         </div>
 
         <footer>
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-instagram"></a>
-            <a href="#" class="fa fa-youtube"></a><br>
+            <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+            <a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube"></a><br>
             <h4>Copyright&copy; 2021 Rühm 13.</h4>
         </footer>
     </div>
