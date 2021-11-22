@@ -59,12 +59,6 @@ footer {
     position: relative;
     text-align: center;
 }
-#section1 {
-    height: 400px;
-}
-#section2 {
-    height: 400px;
-}
 .fa {
     padding: 15px;
     font-size: 40px;
@@ -85,53 +79,13 @@ footer {
     background: #bb0000;  
     color: white;   
 }
-input, textarea {
-    width: 100%;
-    padding: 12px:
-    border: 1px solid black;
-    border-radius: 5px;
-    box-sizing: border-box;
-    height: 50px;
-    font-size: 15pt;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: :vertical;
-}
-input[type=submit] {
-    background-color: #297c46;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-input[type=submit]:hover {
-    background-color: #003E15;
-}
-.container {
-    width: 90%;
-    border-radius: 5px;
-    background-color: #7b84ae;
-    padding: 20px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-.leftbox {
-    float: left;
-    margin-right: 22px;
-}
-.clear {
-    clear: both;
-}
 .float-parent-element {
     display: flex;
     width: 100%;
 }
 .float-child-element {
     flex: 1;
-    margin: 10px;
+    margin: 20px;
 }
 .header-container {
     display: flex;
@@ -143,4 +97,10 @@ input[type=submit]:hover {
 .header-child:first-child {
     margin-right: 10px;
     text-align: left;
+}
+.quote {
+    font-style: italic;
+}
+.creator {
+    font-weight: 600;
 }
