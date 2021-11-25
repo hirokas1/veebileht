@@ -9,9 +9,6 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
-
-
-
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides"); /* valitakse õige slaid klassi nime järgi, slaididel indeksid ja nende järgi ka punktid.*/
