@@ -1,9 +1,7 @@
 .slideshow-container {
   position: relative;
-  background-color: #104050;
-  margin: 20px;
+  
 }
-
 .mySlides {
   display: none;
   padding: 80px;
@@ -12,15 +10,6 @@
   margin: 20px;
 
 }
-.tutvustus {
-  background-color: #104050;
-  margin: 20px;
-  padding: 50px;
-}
-.tutvustusePilt {
-    width: 20%;
-}
-
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -43,6 +32,7 @@
 
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
+  
 }
 
 .dot-container {
@@ -65,3 +55,7 @@
 .active, .dot:hover {
   background-color: #717171;
 }
+
+
+
+
