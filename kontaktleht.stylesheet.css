@@ -1,6 +1,6 @@
 input, textarea {
     width: 100%;
-    padding: 12px:
+    padding: 12px;
     border: 1px solid black;
     border-radius: 5px;
     box-sizing: border-box;
@@ -9,7 +9,7 @@ input, textarea {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: 6px;
     margin-bottom: 16px;
-    resize: :vertical;
+    resize: vertical;
 }
 input[type=submit] {
     background-color: #297c46;
