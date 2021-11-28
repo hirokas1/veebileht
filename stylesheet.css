@@ -104,3 +104,9 @@ footer {
 .creator {
     font-weight: 600;
 }
+.section {
+    height: auto;
+    background-color: #104050;
+    margin: 20px;
+    padding: 10px;
+}

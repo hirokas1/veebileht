@@ -1,4 +1,15 @@
 table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-  }
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 20px;
+  padding: 10px;
+}
+.boldtekst {
+  font-weight: bold;
+}
+.kaldestekst {
+  font-style: oblique;
+}
+h3 {
+  margin-left: 25px;
+}
