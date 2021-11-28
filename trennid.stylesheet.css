@@ -6,8 +6,8 @@
 
 .mySlides {
   display: none;
-  padding: 80px;
-  text-align: center;
+  padding: 60px;
+  text-align: justify;
   background-color: #104050;
   margin: 20px;
 
@@ -15,7 +15,8 @@
 .tutvustus {
   background-color: #104050;
   margin: 20px;
-  padding: 50px;
+  padding: 20px;
+  padding-top: 0;
 }
 .tutvustusePilt {
     width: 20%;
@@ -48,7 +49,7 @@
 .dot-container {
   text-align: center;
   padding: 20px;
-  background #6c939f;
+  background: #6c939f;
 }
 
 .dot {
@@ -64,4 +65,7 @@
 
 .active, .dot:hover {
   background-color: #717171;
+}
+iframe {
+  border: 0;
 }

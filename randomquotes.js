@@ -17,7 +17,7 @@ var quotes = [
     "Kes on võimeline kannatama, on võimeline saavutama kõike, mida ta tahab.",
     "Kõik, mis tuleb kätte kergelt, ilma tööta, on üsna kaheldava väärtusega.",
     "Töö viljakuse tunnetamine on üks parimatest naudingutest."
-]
+];
 var creators = [
     "Vikenti Veressajev",
     "James Brown",
@@ -33,7 +33,7 @@ var creators = [
     "Benjamin Franklin",
     "Leonid Leonov",
     "Luc de Vauvenargues"
-]
+];
 
 /*kaks järjendit, kus ühes on tsitaat ja teises järjendis, samal kohal, on tsitaadi autor*/
 
